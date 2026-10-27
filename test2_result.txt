@@ -1,0 +1,20 @@
+ADD: добавлен объект (1 в контейнере)
+ADD: добавлен объект (2 в контейнере)
+ADD: добавлен объект (3 в контейнере)
+ADD: добавлен объект (4 в контейнере)
+PRINT:
+  1. Truck  | engine_power=350; country=Sweden; capacity_kg=18000
+  2. Bus    | engine_power=220; country=Germany; passengers=60
+  3. Car    | engine_power=110; country=Germany; doors=5; max_speed=180
+  4. Car    | engine_power=90; country=France; doors=3; max_speed=160
+REM: удалено объектов: 2
+PRINT:
+  1. Truck  | engine_power=350; country=Sweden; capacity_kg=18000
+  2. Car    | engine_power=90; country=France; doors=3; max_speed=160
+REM: удалено объектов: 1
+PRINT:
+  1. Truck  | engine_power=350; country=Sweden; capacity_kg=18000
+REM: удалено объектов: 0
+REM: удалено объектов: 1
+PRINT:
+  (контейнер пуст)

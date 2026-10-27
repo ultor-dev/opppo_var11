@@ -1,0 +1,18 @@
+# Тест 3: некорректные входные данные
+ADD Plane; engine_power=1000; country=USA
+ADD Truck; engine_power=300; country=Germany
+ADD Truck; engine_power=abc; country=Germany; capacity_kg=100
+ADD Truck; engine_power=-5; country=Germany; capacity_kg=100
+ADD Truck; engine_power=100; country=Germany; capacity_kg=100; color=red
+ADD Truck; engine_power=100; engine_power=200; country=Germany; capacity_kg=100
+ADD Bus; engine_power=200; country=Russia; passengers=40000
+ADD Car; engine_power=100; country=Japan; doors=7; max_speed=180
+ADD Car; engine_power=100; country=Japan; doors=4 max_speed=180
+ADD
+REM engine_power >
+REM weight > 5
+REM engine_power ~ 5
+REM country > Germany
+REM engine_power > много
+JUMP 10
+PRINT

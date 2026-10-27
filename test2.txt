@@ -1,0 +1,13 @@
+# Тест 2: удаление по типу и по стране, пустой контейнер
+ADD Truck; engine_power=350; country=Sweden; capacity_kg=18000
+ADD Bus; engine_power=220; country=Germany; passengers=60
+ADD Car; engine_power=110; country=Germany; doors=5; max_speed=180
+ADD Car; engine_power=90; country=France; doors=3; max_speed=160
+PRINT
+REM country == Germany
+PRINT
+REM type != Truck
+PRINT
+REM doors >= 1
+REM capacity_kg > 0
+PRINT

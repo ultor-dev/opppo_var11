@@ -1,0 +1,12 @@
+# Тест 4: граничные случаи
+PRINT
+REM engine_power > 0
+ADD Bus; engine_power=1; country=Russia; passengers=32767
+ADD Bus; engine_power=1; country=Russia; passengers=32768
+ADD Car; engine_power=100; country=Japan; doors=2; max_speed=1
+ADD Car; engine_power=100; country=Japan; doors=5; max_speed=250
+add truck; engine_power=50; country=Italy; capacity_kg=1
+PRINT
+REM doors == 2
+REM engine_power<=1
+PRINT
